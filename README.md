@@ -1,16 +1,17 @@
-## Hi there 👋
+# Monte Flor
 
-<!--
-**monte-flor/monte-flor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Website for Monte Flor, an organic cut-flower farm on the terraced hills of Galicia, Spain.
 
-Here are some ideas to get you started:
+Plain static HTML site (Tailwind CSS via CDN, no build step) — the whole site lives in `index.html`. All copy and photos are placeholders and will be personalized.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Local preview
+
+```bash
+python3 -m http.server
+```
+
+Then open http://localhost:8000.
+
+## Deployment
+
+Pushes to `main` auto-deploy to GitHub Pages via `.github/workflows/deploy.yml`.
